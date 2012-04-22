@@ -1,0 +1,3 @@
+Small implementation of a Huffman compression algorithm.  By no means is the most efficient implementation, as it
+does not use an adaptive Huffman coding, and thus needs to count all characters in a file before apply compression. 
+I wrote it to gain a better of understanding of how basic compression techniques work. 
