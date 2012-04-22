@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Driver", "Driver\Driver.csproj", "{176A17F0-564A-4390-BEE9-069C9ABC452C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanCoding", "..\..\Desktop\Bentley.Huffman\Bentley.Huffman\HuffmanCoding.csproj", "{F02345ED-4E7A-4C1E-93F1-DB41BF379323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{176A17F0-564A-4390-BEE9-069C9ABC452C}.Debug|x86.ActiveCfg = Debug|x86
+		{176A17F0-564A-4390-BEE9-069C9ABC452C}.Debug|x86.Build.0 = Debug|x86
+		{176A17F0-564A-4390-BEE9-069C9ABC452C}.Release|x86.ActiveCfg = Release|x86
+		{176A17F0-564A-4390-BEE9-069C9ABC452C}.Release|x86.Build.0 = Release|x86
+		{F02345ED-4E7A-4C1E-93F1-DB41BF379323}.Debug|x86.ActiveCfg = Debug|x86
+		{F02345ED-4E7A-4C1E-93F1-DB41BF379323}.Debug|x86.Build.0 = Debug|x86
+		{F02345ED-4E7A-4C1E-93F1-DB41BF379323}.Release|x86.ActiveCfg = Release|x86
+		{F02345ED-4E7A-4C1E-93F1-DB41BF379323}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Driver\Driver.csproj
+	EndGlobalSection
+EndGlobal
