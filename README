@@ -1,3 +1,11 @@
 Small implementation of a Huffman compression algorithm.  By no means is the most efficient implementation, as it
 does not use an adaptive Huffman coding, and thus needs to count all characters in a file before apply compression. 
 I wrote it to gain a better of understanding of how basic compression techniques work. 
+
+Usage
+Take a look at Main.cs in the Driver folder.  Simply pass an ASCII text file into the constructor as well as a
+path to the generated huffman tree file which contains the encodings (I have chosen .hdef for the extension of the
+encoding file).  The Encode method will return the stream of compressed bytes.
+
+To uncompress the bytes, extract the bytes from the file and pass them in to the Decode method, which will then
+return the full text output of the compressed file.
